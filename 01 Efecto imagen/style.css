@@ -4,7 +4,6 @@ body {
 }
 
 .card {
- 
     width: 600px;
     aspect-ratio: 1 / 0.7;
     border-radius: 8px;
@@ -55,18 +54,6 @@ h2 {
     letter-spacing: 2.5px;
 }
 
-.card::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    border: 2px solid white;
-    border-radius: inherit;
-    opacity: 0;
-    transition:0.4 ease-in-out;
-    margin: auto;
-    
-    
-}
 .card:hover img {
     filter: grayscale(1) brightness(0.4);
 }
